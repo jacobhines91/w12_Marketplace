@@ -1,0 +1,6 @@
+Field,Type,Null,Key,Default,Extra
+item_id,int(11),NO,PRI,NULL,auto_increment
+product_name,varchar(100),NO,,NULL,
+department_name,varchar(100),NO,,NULL,
+price,"decimal(10,2)",YES,,NULL,
+stock_qaunity,int(11),YES,,NULL,
