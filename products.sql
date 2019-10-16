@@ -10,7 +10,8 @@ CREATE TABLE products(
   department_name VARCHAR(100),
   price DEC(10,2),
   stock_quantity INT,
-  PRIMARY KEY (item_id) );
+  PRIMARY KEY (item_id) 
+  );
   
   INSERT INTO products(product_name, department_name, price, stock_quantity)
   VALUES("XboxOne", "Electronics", 300.99, 100), ("55' Samsung HDTV", "Electronics", 600.99, 100), ("Office Chair", "Office", 129.99, 100);
@@ -29,5 +30,3 @@ CREATE TABLE products(
   
   
   
-  DESCRIBE products;
-  SELECT * FROM products;
